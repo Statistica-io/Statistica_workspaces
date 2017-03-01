@@ -1,1 +1,4 @@
-
+Required: Anaconda Python 2.7.xx version.(3.5.xx is also supported in Statistica but all the Python nodes have been developed using Python 2.7.xx)
+Make sure the installed Python path is stored in "Environment Variable" path settings. To check this, type "python" in windows comand prompt which should open the python shell.
+Install "comtypes" package in order for Statistica to interact with Python. Execute "pip install comtypes" command in the windows command prompt to install "comptypes" package.
+All the required packages for the python script should install automatically but some of the packages or dependacies require manuall installation.
